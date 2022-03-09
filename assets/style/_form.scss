@@ -1,0 +1,32 @@
+.book {
+    background-image: url(../image/book-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .form {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        .form__input {
+            flex: 0 0 100%;
+            margin-bottom: 2rem;
+            border: 2px solid $primaryColor;
+            border-radius: 5px;
+            outline: none;
+            padding: 1rem;
+            background: transparent;
+        }
+
+        .btn {
+            width: fit-content;
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+@media (min-width:768px) {
+    .form {
+        width: 50rem;
+    }
+}

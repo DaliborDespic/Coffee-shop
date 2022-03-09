@@ -1,0 +1,33 @@
+.home {
+    background-image: url(../image/home-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+    &__content {
+        padding: 2rem 1rem;
+
+        h3 {
+            font-size: 2rem;
+        }
+    }
+}
+
+
+@media (min-width:1024px) {
+    .home {
+        background-image: url(../image/home-bg2.jpg);
+
+        &__content {
+            width: 50rem;
+            position: relative;
+            top: 30%;
+            left: 10%;
+            h3 {
+                font-size: 6rem;
+            }
+        }
+    }
+
+}
